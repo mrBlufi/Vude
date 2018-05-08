@@ -28,6 +28,11 @@ module.exports.routes = {
     view: 'pages/homepage'
   },
 
+  '/cat': {
+    controller:'cat',
+    action:'test'
+  }
+
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *
